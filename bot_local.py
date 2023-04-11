@@ -29,7 +29,7 @@ def send_welcome(message):
 
     first_name = "Algoritma"
     last_name = None
-    full_name = f'{Algoritma} {None}' if last_name is not None else first_name
+    full_name = f'{first_name} {last_name}' if last_name is not None else first_name
     
     # TO DO: subtitute text with variable
     with open('template_text/welcome.txt', mode='r', encoding='utf-8') as f:
